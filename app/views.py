@@ -15,3 +15,17 @@ def index():
     tech_news = get_news('technology')
     bus_news = get_news('business')
     sci_news = get_news('science')
+
+    #print all news
+    return render_template('index.html', title= title, sports= all_news,general= general_news, technology = tech_news, business = bus_news, science = sci_news)
+
+#views
+@main.route('/news/<int:id>')
+def news(id):
+    """
+    view movie page function that returns the movie details page and its data
+    """
+    news = get_news(id)
+
+    return render_template('index.html',news = news)
+    
