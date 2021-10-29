@@ -1,3 +1,4 @@
+from os import name
 from flask import render_template, Request, redirect, url_for
 from .import main
 from ..request import get_articles, get_news
@@ -28,4 +29,13 @@ def news(id):
     news = get_news(id)
 
     return render_template('index.html',news = news)
+
+@main.route('/articles/<source_id>')
+def articles(source_id):
+    """
+    functiom that returns the articles by source id
+    """
+    article_source = get_articles(source_id)
+    title = f'{source_id} | Articles'
+    return render_template('articles.html',title = title, name= source_id, news= article_source)
     
