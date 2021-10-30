@@ -33,3 +33,16 @@ def get_news(category):
             news_results = process_results(news_results_list)
 
     return news_results
+def process_results(news_list):
+    '''
+    '''
+
+    news_results = []
+    for news_item in news_list:
+        name = news_item.get('name')
+        author = news_item.get('author')
+        url = news_item.get('url')
+        country = news_item.get('country')
+        description = news_item.get('description')
+        category = news_item.get('category')
+        id = news_item.get('id')
