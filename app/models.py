@@ -1,4 +1,4 @@
-class articles:
+class Articles:
     """
     articles class to define articles object
     """
