@@ -23,7 +23,7 @@ git
 ## set up and installation
 
 ```
-1. Clone or download the Repo by using this command git clone :'http"
+1. Clone or download the Repo by using this command git clone :'https://github.com/kimutaiamos/NewsApi.git'
 2. Create a virtual environment
 3. Read the specs and requirements files and Install all the requirements.
 4. Edit the start.sh file with your api key from the news.org website   
