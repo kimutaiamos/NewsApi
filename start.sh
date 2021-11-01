@@ -1,4 +1,4 @@
-export NEWS_API_KEY=62312c78731c4f609292dda2893b945c
-export SECRET_KEY=siramosmoringa12
+export NEWS_API_KEY='38ddb87a47b8478d8c834936717b6cb7'
+export SECRET_KEY='e200ba059a17096e8cc8bf82eb7b8743'
 
-python3.6 manage.py server
+python3.9 manage.py server

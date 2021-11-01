@@ -1,7 +1,5 @@
-import urllib.request, json
+import urllib .request, json
 from .models import Articles, News
-
-#getting api key
 
 
 api_key = None
@@ -88,6 +86,5 @@ def process_articles(articles_list):
             
     return articles_results
 
-            
 
-
+   

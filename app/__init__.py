@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_bootstrap import Bootstrap
 from config import config_options
-
+from requests.auth import HTTPBasicAuth
 bootstrap = Bootstrap()
 
 def create_app(config_name):
@@ -23,3 +23,6 @@ def create_app(config_name):
     configure_request(app)
 
     return app
+      
+    
+
