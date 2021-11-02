@@ -5,12 +5,12 @@
 
 {% block styles%}
     {{ super() }}
-    <!-- <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"> -->
+
 {% endblock %}  
 <div>
 <div class="container-fluid"style="background-image: url('https://spiritanroma.org/wp-content/uploads/2018/01/world-news.jpg'); background-repeat: no-repeat; background-size: cover ">
         
-                <h2 style="text-align: center;color: rgb(9, 54, 9);"><img src="{{url_for('static',filename='images/logo.jpg')}}" class="logo" alt="" style="height:70px;margin-top:10px;
+                <h2 style="text-align: center;color: rgb(9, 54, 9);">
                     width: 70px;" />General news </h2><hr>
                 {% for all_news in general %}
                 <div class="col-md-2">
