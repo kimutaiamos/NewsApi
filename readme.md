@@ -9,7 +9,7 @@ On the homepage the user gets all news sources
 To view specific article the user have to click the link
 They are also prompted to use the nav bar
 ## To view the live site:
-
+      https://python-newsapi.herokuapp.com/
 
 ## Technologies used
 
